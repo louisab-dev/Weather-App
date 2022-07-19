@@ -37,7 +37,7 @@ struct WeatherView: View {
                         } icon: {
                             Image(systemName: "location.fill")
                                 .foregroundColor(Color.white)
-                                .font(.system(size: 22))
+                                .font(.system(size: 20))
                         }
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -49,7 +49,7 @@ struct WeatherView: View {
                         } icon: {
                             Image(systemName: "magnifyingglass")
                                 .foregroundColor(Color.white)
-                                .font(.system(size: 22))
+                                .font(.system(size: 20))
                         }
                     }
                     .frame(maxWidth: .infinity, alignment: .trailing)
